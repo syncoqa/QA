@@ -68,6 +68,7 @@ class CupertinoTextFieldConfiguration {
   final EdgeInsets scrollPadding;
   final bool enableInteractiveSelection;
   final List<String>? autofillHints;
+  final EditableTextContextMenuBuilder? contextMenuBuilder;
 
   /// Creates a CupertinoTextFieldConfiguration
   const CupertinoTextFieldConfiguration({
@@ -108,6 +109,7 @@ class CupertinoTextFieldConfiguration {
     this.scrollPadding = const EdgeInsets.all(20.0),
     this.enableInteractiveSelection = true,
     this.autofillHints,
+    this.contextMenuBuilder,
   });
 
   /// Copies the [CupertinoTextFieldConfiguration] and only changes the specified properties

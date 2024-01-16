@@ -584,6 +584,7 @@ class _CupertinoTypeAheadFieldState<T> extends State<CupertinoTypeAheadField<T>>
         scrollPadding: widget.textFieldConfiguration.scrollPadding,
         enableInteractiveSelection:
             widget.textFieldConfiguration.enableInteractiveSelection,
+        contextMenuBuilder: widget.textFieldConfiguration.contextMenuBuilder,
       ),
     );
   }
